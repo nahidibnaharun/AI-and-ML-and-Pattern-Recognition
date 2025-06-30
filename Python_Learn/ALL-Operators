@@ -1,0 +1,38 @@
+#operators
+#arithmetic operators
+age=10;
+age+=10;
+print(age);
+print("arithmetic"+" "+"operators")
+
+#comparison operators
+if(age<=20):
+  print("comparison operators")
+
+#boolean operators
+if(age==20 or age-10==10):
+  print("Boolean operators")
+else: 
+  print("not equal")
+
+#Bitwise operators
+"""
+& performs binary AND
+| performs binary OR
+performs a binary XOR operation
+~ performs a binary NOT operation
+<<< shift left operation
+shift right operation
+"""
+
+#is & in operators
+
+#ternery operator
+def is_adult(age):
+  if age>18:
+    return True
+  else:
+    return False
+def is_adult2(age):
+  return True if age>18 else False
+  
